@@ -12,13 +12,17 @@
 	};
 </script>
 
+<style>
+	@import '../styles.css';
+</style>
+
 <div>
 	<Particles id="tsparticles" style="" options={ParticlesJson} {particlesInit} />
-	<Navbar>
+	<Navbar class="bg-navbar">
 		<NavBrand href="/">
-			<span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white"
-				>Flowbite</span
-			></NavBrand
-		>
+			<span>
+				FadedStatic.tech
+			</span>
+		</NavBrand>
 	</Navbar>
 </div>
